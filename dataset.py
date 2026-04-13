@@ -17,7 +17,7 @@ class WaveImpedanceDataset(Dataset):
 
         if self.mode == 'test':
             self.seismic_files = ['marmousi_seismic_profile.mat']
-            self.impedance_files = ['marmousi_impedance_downsampled.mat']
+            self.impedance_files = ['marmousi_impedance.mat']
             self.initial_model_files = ['initial_marmousi_impedance.mat']
         else:
             self.seismic_files = sorted([f for f in os.listdir(seismic_data_dir) if f.endswith('.mat')])
