@@ -24,13 +24,28 @@ This repository contains the code for seismic impedance inversion.
 - scikit-learn
 - comet_ml
 
-## Run Training
+## Training
 
 ```bash
 python main.py
 ```
 
-## Run Testing
+## Testing / Inference
+
+A pretrained checkpoint for testing is provided in the GitHub Release page.
+
+### Step 1. Download pretrained checkpoint
+
+Download `model_test.pt` from the Release assets.
+
+### Step 2. Place the checkpoint file
+
+Put the downloaded checkpoint in:
+
+```bash
+./checkpoints/model_test.pt
+```
+### Step 3. Run Testing
 
 ```bash
 python test.py
