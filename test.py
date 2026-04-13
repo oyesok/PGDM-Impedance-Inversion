@@ -257,16 +257,16 @@ if __name__ == '__main__':
         ema_decay=0.995,
         fp16=False,
         results_folder='results',
-        load_path='./checkpoints/model.pt',
+        load_path= None,
         dataset='test',
         save_and_sample_every=100
     )
 
-    load_model(trainer, './checkpoints/model.pt')
+    load_model(trainer, './checkpoints/model_test.pt')
 
     test_dataset = WaveImpedanceDataset(
         seismic_data_dir='./testdata',
-        impedance_data_dir='.testdata',
+        impedance_data_dir='./testdata',
         initial_model_dir='./testdata',
         root_dir='./testdata',
         mode='test'
