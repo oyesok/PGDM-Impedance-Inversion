@@ -208,7 +208,7 @@ def test(trainer, test_dataloader, patch_size=128):
         print(f"predicted_impedance saved to {save_path}")
 
         save_with_colormap(predicted_impedance, f'results/predicted_impedance.png', nrow=1)
-        save_with_colormap(labels, f'results/true_impedance.png', nrow=1)
+        save_with_colormap(labels.squeeze().cpu().numpy(), f'results/true_impedance.png', nrow=1)
 
 def evaluate(predicted, target):
     mse = F.mse_loss(predicted, target).item()
