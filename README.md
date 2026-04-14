@@ -32,7 +32,7 @@ python main.py
 
 ## Testing
 
-A pretrained checkpoint for testing is available on Hugging Face::
+A pretrained checkpoint for testing is available on Hugging Face:
 https://huggingface.co/yes11-ok/PGDM-Impedance-Inversion
 
 ### Step 1. Download pretrained checkpoint
