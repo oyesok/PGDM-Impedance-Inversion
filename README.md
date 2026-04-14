@@ -46,7 +46,7 @@ Put the downloaded checkpoint in:
 ```bash
 ./checkpoints/model_test.pt
 ```
-### Step 3. Run Testing
+### Step 3. Run testing
 
 ```bash
 python test.py
