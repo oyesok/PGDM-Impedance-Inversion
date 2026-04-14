@@ -32,11 +32,12 @@ python main.py
 
 ## Testing / Inference
 
-A pretrained checkpoint for testing is provided in the GitHub Release page.
+A pretrained checkpoint for testing is available on Hugging Face::
+https://huggingface.co/yes11-ok/PGDM-Impedance-Inversion
 
 ### Step 1. Download pretrained checkpoint
 
-Download `model_test.pt` from the Release assets.
+Download `model_test.pt` from Hugging Face.
 
 ### Step 2. Place the checkpoint file
 
