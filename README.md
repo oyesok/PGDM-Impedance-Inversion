@@ -30,7 +30,7 @@ This repository contains the code for seismic impedance inversion.
 python main.py
 ```
 
-## Testing / Inference
+## Testing
 
 A pretrained checkpoint for testing is available on Hugging Face::
 https://huggingface.co/yes11-ok/PGDM-Impedance-Inversion
